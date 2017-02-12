@@ -1,0 +1,33 @@
+*
+{
+	color: white;
+}
+body
+{
+	background-color: black;
+}
+.language-bar li:first-child
+{
+	border-color: #888;
+}
+.language-bar li a, .nav-bar li, .action-item
+{
+	color: #888;
+}
+.language-bar li a.selected, .nav-bar li.selected
+{
+	color: white;
+}
+.effeckt-caption figcaption
+{
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.content-page-container
+{
+	border-color: #888;
+}
+.info-pane
+{
+	font-weight: 200;
+}

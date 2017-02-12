@@ -1,0 +1,125 @@
+<?xml version="1.0" encode="UTF-8"?>
+<!DOCTYPE data [
+<!ELEMENT movie (title, description?, category*)>
+<!ATTLIST movie name #REQUIRED>
+<!ATTLIST movie id #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT decription (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+]>
+<data>
+	<hd default="false" />
+        <movie name="teeb" id="jcomutTR85c">
+		<title>TEEB "Little Things"</title>
+		<description>Every little thing matters.</description>
+		<category>Commercial</category>
+	</movie>
+	<hd default="false" />
+        <movie name="ikea" id="haxd9ncak00">
+		<title>Brad Go "The Ikea Song"</title>
+		<description>Just an ordinary day at the local Ikea.</description>
+		<category>Music Video</category>
+	</movie>
+	<hd default="false" />
+        <movie name="oceanside" id="Ff9DkfwdBKc">
+		<title>A City On A Lake "Oceanside"</title>
+		<description>A surreal and fantastic journey through memories.</description>
+		<category>Music Video</category>
+		<category>Featured</category>
+	</movie>
+        <movie name="FLcurry" id="6m789e3pB-k">
+		<title>Foot Locker "Maurice and Stephen Curry"</title>
+		<description>Maurice auditions for Stephen Curry's entourage.</description>
+		<category>Commercial</category>
+		<category>Featured</category>
+	</movie>
+        <movie name="stc" id="jzU_cqoTnvg">
+		<title>Making of OneRepublic's "Feel Again"</title>
+		<description>See how heartbeats of children in need inspired OneRepublic's new hit song, "Feel Again."</description>
+		<category>Commercial</category>
+		<category>Featured</category>
+	</movie>
+        <movie name="botr" id="bimam2j2gEg">
+		<title>Bottom of the River</title>
+		<description>The official music video for Delta Rae's "Bottom of the River"</description>
+		<category>Music Video</category>
+		<category>Featured</category>
+	</movie>
+        <movie name="chevy" id="V2pX3Sb2s9Y">
+		<title>Chevy "The Driver"</title>
+		<description>The Driver picks up the usual suspects in this high octane thriller.</description>
+		<category>Commercial</category>
+		<category>Featured</category>
+	</movie>
+        <movie name="feist" id="oMgAo0Ototk">
+		<title>Made in China</title>
+		<description>A story about a toy robot who learns what it means to live. Set to Feist's "Now at Last".</description>
+		<category>Music Video</category>
+	</movie>
+        <movie name="heist" id="bfDZ9jjOy-8">
+		<title>Pepsi Max "Heist"</title>
+		<description>Max it now!</description>
+		<category>Commercial</category>
+	</movie>
+        <movie name="ipad" id="4jO7_jUy1x4">
+		<title>iPad Face Dance</title>
+		<description>An original music video for Eric Holljes' single 'Good in my Hood', made possible by Apple's Facetime for iPad 2.</description>
+		<category>Music Video</category>
+	</movie>
+	<content name="About Me">Lawrence Chen is an award winning director of music videos and branded content from Beijing, China. After graduating from Duke University in 2009, he produced work that received numerous awards and recognition at the Cannes Lions as well as the Rome, London, Shanghai, Tribeca, and Cannes Film Festivals. Lawrence is also the filmmaker ambassador for the Pepsi Films program and was selected for SHOOT's 10th Annual New Directors Showcase. He currently resides in New York City and is a producer at BBDO NY.</content>
+        <content name="Awards">
+2012 SHOOT's New Directors Showcase<br />
+- New Director<br />
+<br />
+2011 Shanghai Film Festival MOFILM<br />
+- 2nd Place: Renaissance "One Night in NYC"<br />
+<br /> 
+2010 Rome Film Festival MOFILM<br />
+- Grand Prize and 1st Place: TEEB "Little Things"<br />
+- 1st Place: AT&T "Expand Your World"<br />
+- 2nd Place: Pepsi "Mist"<br />
+<br />
+2010 London Film Festival MOFILM<br />
+- 1st Place: Snuggle "Paper Shirt"<br />
+- 2nd Place: Snuggle "Snuggle Up!"<br />
+- 3rd Place: Close Up "Message"<br />
+<br />
+2010 Cannes Lions MOFILM<br />
+- 2nd Place: Logitech "Low Resolution Man"<br />
+- 5th Place: Diet Coke "Floors"<br />
+<br />
+2010 Tribeca Film Festival MOFILM<br />
+- 1st Place: Best Buy "Frames of Mind"<br />
+- 2nd Place: Nokia "Hands"<br />
+<br />
+Pepsi Refresh Your World Competition<br />
+- 3rd Place: If Kids Ran The World<br />
+- 3rd Place: The Dollar<br />
+<br />
+A Journey to the West<br />
+-  Official Selection - NFFTY 2010<br />
+-  Official Selection - Oxford Film Festival 2010<br />
+-  Honorable Mention - 57th Columbus International Film+Video Festival 2009<br />
+-  Real Ideas Studio Screening - Festival de Cannes 2009<br />
+-  Finalist Live Action - Adobe Design Achievement Awards 2009<br />
+-  Official Selection - Shnit International Film Festival 2009<br />
+-  Official Selection - DC APA Film Festival 2009<br />
+-  Exhibition Screening - ICOGRADA Design Conference 2009<br />
+<br />
+The Good Side<br />
+-  Best of NFFTY - NFFTY 2010<br />
+-  Official Selection Opening Night - Ivy Film Festival 2009<br />
+-  Official Selection Opening Night - NFFTY 2009<br />
+-  Winner - Reel 13 Shorts Program 2009<br />
+-  Film of the Week - mtvU Best Film On Campus 2009<br />
+</content>
+        <content name="Other Work">
+<br /> 
+Follow me on<a href="http://www.youtube.com/user/lawrencechenfilms">YouTube</a><br />
+<br />
+
+</content>
+	<content name="Contact">
+Lawrence Chen<br />
+boss@lawrencechenfilms.com</content>
+</data>

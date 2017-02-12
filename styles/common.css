@@ -1,0 +1,187 @@
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.title-text.main
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+}
+.action-item
+{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+figure
+{
+	margin: 0;
+}
+figcaption
+{
+	padding: 10px;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+.header-container
+{
+	margin-top: 80px;
+	transition: margin-top 1s;
+	-moz-transition: margin-top 1s;
+	-webkit-transition: margin-top 1s;
+	-o-transition: margin-top 1s;
+}
+.main-container
+{
+	max-width: 1100px;
+	min-width: 820px;
+}
+
+.title-text, figcaption
+{
+	text-transform: uppercase;
+}
+
+.language-bar
+{
+	text-align: right;
+	font-size: 12px;
+}
+
+.language-bar li
+{
+	display: inline-block;
+}
+
+.language-bar li:first-child
+{
+	padding-right: 4px;
+	border-right: 1px solid;
+}
+
+.nav-bar li
+{
+	display: inline-block;
+	margin-left: 20px;
+	cursor: pointer;
+	
+	transition: color 1s;
+	-moz-transition: color 1s;
+	-webkit-transition: color 1s;
+	-o-transition: color 1s;
+}
+
+.nav-bar li.selected
+{
+	transition: color 1s;
+	-moz-transition: color 1s;
+	-webkit-transition: color 1s;
+	-o-transition: color 1s;
+}
+
+.hidden
+{
+	visibility: hidden;
+	opacity: 0;
+}
+
+figure, figcaption
+{
+	opacity: 1;
+	
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+}
+
+.effeckt-caption {
+    position: relative;
+	float: none;
+    overflow: hidden;
+}
+
+.effeckt-caption figcaption {
+    position: absolute;
+}
+
+.effeckt-caption-1 figcaption {
+    bottom: 0;
+    left: 0;
+	right: 0;
+    opacity: 0;
+}
+
+.effeckt-caption-1:hover figcaption,
+.effeckt-caption-1:active figcaption {
+    opacity: 1;
+}
+
+.caption-subtitle
+{
+	font-style: italic;
+	font-size: 80%;
+}
+table
+{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.header-grid td
+{
+	padding: 0;
+	margin: 0;
+}
+.content-page-container
+{
+	border-style: solid;
+	border-width: 1px 0;
+}
+.content-image
+{
+	height: 200px;
+	width: 200px;
+}
+.content-image.overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+}
+.content-image.overlay:hover
+{
+	opacity: 0;
+}
+.content-grid td
+{
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent;
+}
+.content-grid figure
+{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.youtube-logo
+{
+	height: 25px;
+	vertical-align: middle;
+    margin-top: -6px;
+}

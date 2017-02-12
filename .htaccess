@@ -1,0 +1,7 @@
+AddType application/xaml+xml xaml
+AddType application/x-silverlight-app xap
+AddType application/manifest manifest
+AddType application/x-ms-application application
+AddType application/x-ms-xbap xbap
+AddType application/octet-stream deploy
+AddType application/vnd.ms-xpsdocument xps
