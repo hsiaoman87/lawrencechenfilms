@@ -5,10 +5,10 @@ $(function () {
             type: 'text/css',
             href: 'http://fonts.googleapis.com/css?family=' + model.fontName + ':200,400,800'
         }));
-        
+
         $('body').css('font-family', model.fontName);
     }
-    
+
     if (model.titleFontName) {
         $('head').prepend($('<link>').attr({
             rel: 'stylesheet',
@@ -17,22 +17,22 @@ $(function () {
         }));
         $('.title-text.main').css('font-family', model.titleFontName);
     }
-    
+
 	model.lang = lang;
-	
+
 	function ContentViewModel(model) {
 		var self = this;
 		self.subTitle = '';
-		
+
 		$.extend(self, model);
-        
+
         self.image = currentDir + self.image;
         self.altImage = currentDir + self.altImage;
-		
+
 		if (model[lang]) {
 			$.extend(self, model[lang]);
 		}
-		
+
 		self.url = ko.computed(function () {
 			switch(self.type) {
 				case 'youtube':
@@ -48,11 +48,11 @@ $(function () {
 			}
 		});
 	}
-	
+
 	function ContentPageViewModel(model) {
 		var self = this;
 		$.extend(self, model);
-		
+
 		self.rows = ko.computed(function () {
 			var rows = [];
 			if (self.content.length <= 4) {
@@ -65,7 +65,7 @@ $(function () {
 				rows.push({
 					elements: self.content.slice(0, firstRowCount)
 				});
-				
+
 				rows.push({
 					elements: self.content.slice(firstRowCount, firstRowCount + Math.floor(self.content.length / 2))
 				});
@@ -77,22 +77,22 @@ $(function () {
 			}
 			return rows;
 		});
-		
+
 		self.content = $.map(self.content, function (element) {
 			return new ContentViewModel(element);
 		});
 	}
-	
+
 	function ViewModel(model) {
 		var self = this;
 		$.extend(self, model);
-		
+
 		self.contentPages = $.map(self.contentPages, function (element) {
 			return new ContentPageViewModel(element);
 		});
-		
+
 		self.featuredContent = new ContentViewModel(self.featuredContent);
-		
+
 		self.selectedContentPage = ko.observable();
 		self.setSelectedContentPage = function (data) {
 			if (data) {
@@ -136,7 +136,7 @@ $(function () {
                 }
 			}
 		}
-		
+
 		self.selectedContent = ko.observable('');
         self.afterRenderSelectedContent = function () {
             if (self.selectedContent().type === 'youtube') {
@@ -153,9 +153,9 @@ $(function () {
             else if (self.selectedContent().type === 'vimeo') {
                 var iframe = $('#player')[0];
                 self.player = $f(iframe);
-                
+
                 // When the player is ready, add listeners
-                self.player.addEvent('ready', function() {   
+                self.player.addEvent('ready', function() {
                     self.player.isReady = true;
                     self.player.addEvent('finish', function () {
                         self.setSelectedContent('');
@@ -194,11 +194,11 @@ $(function () {
                 }
             }
 		}
-        
+
         function fadeContentPageContainerIn() {
             $('.content-page-container figure').css('opacity', 0);
             $('.content-page-container').show();
-            
+
             var count = $('.content-page-container figure').length;
             var totalDelay = 1000;
             var maxDelay = 500;
@@ -208,7 +208,7 @@ $(function () {
                 $(element).delay(totalDelay / count * index).fadeTo(Math.min(totalDelay / count, maxDelay), 1);
             });
         }
-		
+
         $('.content-page-container').hide();
         $('.content-container').hide();
 		$('.info-pane').hide();
@@ -221,14 +221,14 @@ $(function () {
 				else {
 					self.selectedInfoPage(data);
 					$('.info-pane').fadeIn();
-					
+
 					setTimeout(function () {
 						window.scrollTo(0, document.body.scrollHeight);
 					}, 100);
 				}
 			});
         }
-        
+
         self.navigate = function () {
             if (self.selectedContent() && self.selectedContent().youtube) {
                 var startTime;
@@ -249,20 +249,20 @@ $(function () {
             }
         }
 	}
-	
+
 	var viewModel = new ViewModel(model);
-	
+
 	document.title = viewModel.title;
-	
+
 	ko.applyBindings(viewModel);
-	
+
 	$('.featured-image').mousemove(function (e) {
 		var xCoord = e.offsetX - $(e.target).width() / 2;
 		var yCoord = e.offsetY - $(e.target).height() / 2;
-		
-		console.log(xCoord + ' ' + yCoord);
+
+		// console.log(xCoord + ' ' + yCoord);
 	});
-	
+
 	$('img.hidden').load(function () {
 		$(this).removeClass('hidden');
 	});

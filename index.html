@@ -1,50 +1,23 @@
-﻿<?php
-$currentDir = '';
-
-$validThemes = array('dark', 'light');
-$theme = isset($_GET['theme']) && in_array($_GET['theme'], $validThemes) ? $_GET['theme'] : $validThemes[1]; // default theme
-
-$validLanguages = array('en', 'zh');
-$userLanguage = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if (!isset($language))
-{
-    $language = $userLanguage;
-}
-if (!in_array($language, $validLanguages))
-{
-    $language = $validLanguages[0]; // default language
-}
-if (isset($_GET['lang']) && in_array($_GET['lang'], $validLanguages))
-{
-    $language = $_GET['lang'];
-}
-
-$preview = isset($_GET['preview']);
-?>
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" href="<? echo $currentDir; ?>/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:800">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Sans:400">
-    <link rel="stylesheet" type="text/css" href="<? echo $currentDir; ?>/styles/common.css">
-    <link rel="stylesheet" type="text/css" href="<? echo $currentDir; ?>/styles/<? echo $theme; ?>.css">
-    <link rel="stylesheet" type="text/css" href="<? echo $currentDir; ?>/styles/medium.css" media="screen and (max-width: 1600px)">
-    <link rel="stylesheet" type="text/css" href="<? echo $currentDir; ?>/styles/small.css" media="screen and (max-width: 1020px)">
-    <script type="text/javascript" src="<? echo $currentDir; ?>/scripts/jquery-2.0.2.js"></script>
-    <script type="text/javascript" src="<? echo $currentDir; ?>/scripts/knockout-2.2.1.js"></script>
-    <script type="text/javascript" src="<? echo $currentDir; ?>/scripts/froogaloop.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/common.css">
+    <link rel="stylesheet" type="text/css" href="/styles/light.css">
+    <link rel="stylesheet" type="text/css" href="/styles/medium.css" media="screen and (max-width: 1600px)">
+    <link rel="stylesheet" type="text/css" href="/styles/small.css" media="screen and (max-width: 1020px)">
+    <script type="text/javascript" src="/scripts/jquery-2.0.2.js"></script>
+    <script type="text/javascript" src="/scripts/knockout-2.2.1.js"></script>
+    <script type="text/javascript" src="/scripts/froogaloop.js"></script>
     <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-    <script text="text/javascript"><? echo "var lang = '$language'; var theme = '$theme'; var currentDir = '$currentDir';"; ?></script>
-    <script type="text/javascript" src="<? echo $currentDir; ?>/<? echo $preview ? 'loader_preview.js' : 'loader.js'; ?>"></script>
-    <script type="text/javascript" src="<? echo $currentDir; ?>/scripts/main.js"></script>
+    <script text="text/javascript">var lang = 'en'; var theme = 'light'; var currentDir = '';</script>
+    <script type="text/javascript" src="/loader.js"></script>
+    <script type="text/javascript" src="/scripts/main.js"></script>
 </head>
 <body>
     <div class="main-container" style="margin: 0 auto; padding: 0 10px;">
-        <ul class="language-bar">
-            <li><a href="<? echo $currentDir.($userLanguage === 'en' ? '/' : '/en'); ?>" data-bind="css: { selected: lang === 'en' }">English</a></li>
-            <li><a href="<? echo $currentDir.($userLanguage === 'zh' ? '/' : '/cn'); ?>" data-bind="css: { selected: lang === 'zh' }">中文</a></li>
-        </ul>
         <div class="header-container">
             <table class="header-grid" style="width: 100%;">
                 <tr>
@@ -101,12 +74,12 @@ $preview = isset($_GET['preview']);
         <div>
             <div data-bind="css: { hidden: !selectedContent() }" class="title-text nav-bar" style="float: left;">
                 <div class="action-item" data-bind="click: function () { setSelectedContent(''); }">Back</div>
-                <div class="action-item" data-bind="css: { hidden: !selectedContent() || !selectedContent().youtube }, click: navigate">View on <img class="youtube-logo" src="<? echo $currentDir; ?>/images/youtube-<? echo $theme; ?>sm.png" /></div>
+                <div class="action-item" data-bind="css: { hidden: !selectedContent() || !selectedContent().youtube }, click: navigate">View on <img class="youtube-logo" src="/images/youtube-lightsm.png" /></div>
             </div>
             <ul class="title-text nav-bar" data-bind="foreach: infoPages" style="text-align: right;">
                 <li data-bind="text: title, click: $root.setSelectedInfoPage, css: { selected: $root.selectedInfoPage() === $data }" />
             </ul>
-            <div class="info-pane" data-bind="template: { data: selectedInfoPage, if: selectedInfoPage }" style="margin-top: 20px; min-height: 100px;">
+            <div class="info-pane" data-bind="template: { data: selectedInfoPage, if: selectedInfoPage }" style="margin-top: 20px; min-height: 100px; line-height: 2;">
                 <div data-bind="html: html"></div>
             </div>
         </div>
