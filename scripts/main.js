@@ -26,8 +26,8 @@ $(function () {
 
 		$.extend(self, model);
 
-        self.image = currentDir + self.image;
-        self.altImage = currentDir + self.altImage;
+        self.image = self.image.replace(/^\//g, '');
+        self.altImage = (self.altImage || '').replace(/^\//g, '');
 
 		if (model[lang]) {
 			$.extend(self, model[lang]);
