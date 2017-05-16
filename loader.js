@@ -7,48 +7,6 @@ var model = {
 			type: 'vimeo'
 		},
 	contentPages: [{
-		title: 'MUSIC VIDEO',
-		content: [{
-		        image: '/images/ScaredSQ.jpg',
-                        altImage: '/images/ScaredBW.jpg',
-		        title: 'Delta Rae - Scared',
-		        id: '119471879',
-		        type: 'vimeo',
-                        youtube: 'http://www.youtube.com/watch?v=dykkZteE2Hw',
-                        zh: {
-			          title: 'Delta Rae - Scared',
-			          id: 'XMTI5ODM4NzYwOA',
-			          type: 'youku'
-		        }
-	        },
-                {
-		        image: '/images/PosnerSQ.jpg',
-                        altImage: '/images/PosnerBW.jpg',
-		        title: 'Mike Posner - My Light',
-		        id: '135018169',
-		        type: 'vimeo',
-                        youtube: 'http://www.youtube.com/watch?v=PY424feYbas',
-                        zh: {
-			          title: 'Mike Posner - My Light',
-			          id: 'XMTI5ODM4ODg2NA',
-			          type: 'youku'
-		        }
-	        },
-		{
-			image: '/images/DeltaSQ.jpg',
-			altImage: '/images/DeltaBW.jpg',
-			title: 'DR - Bottom of the River',
-			id: '73015975',
-			type: 'vimeo',
-			youtube: 'http://www.youtube.com/watch?v=bimam2j2gEg',
-                        zh: {
-			          title: 'DR - Bottom of the River',
-			          id: 'XNjA0NTEyNTcy',
-			          type: 'youku'
-		        }
-		}]
-	 },
-	{
 		title: 'COMMERCIAL',
 		content: [
 	        {
@@ -124,48 +82,63 @@ var model = {
 			type: 'vimeo'
 		},
                 {
-			image: '/images/WWYOSQ.jpg',
-			altImage: '/images/WWYOBW.jpg',
-			title: 'We Were Young Once Too',
-			id: '168063024',
+			image: '/images/IDMTRSQ.jpg',
+			altImage: '/images/IDMTRBW.jpg',
+			title: 'I Dont Make The Rules',
+			id: '216448302',
 			type: 'vimeo'
 		},]
 
 	},
-	{
-		title: 'DOC',
-		content: [
-		{
-			image: '/images/MarkSQ.jpg',
-			altImage: '/images/MarkBW.jpg',
-			title: 'Mark Frontera',
-			id: 'fqQwm6Th6QM',
-			type: 'youtube'
-		},
-	        {
-		        image: '/images/NasSQ.jpg',
-                        altImage: '/images/NasBW.jpg',
-		        title: 'A Discussion on Rhythm',
-		        id: '135008846',
+        {
+		title: 'MUSIC VIDEO',
+		content: [{
+		        image: '/images/ScaredSQ.jpg',
+                        altImage: '/images/ScaredBW.jpg',
+		        title: 'Delta Rae - Scared',
+		        id: '119471879',
 		        type: 'vimeo',
+                        youtube: 'http://www.youtube.com/watch?v=dykkZteE2Hw',
                         zh: {
-			          title: 'GE ft. Nas - Rhythm',
-			          id: 'XMTI5ODM4NTk0OA',
+			          title: 'Delta Rae - Scared',
+			          id: 'XMTI5ODM4NzYwOA',
 			          type: 'youku'
 		        }
 	        },
                 {
-			image: '/images/LymanSQ.jpg',
-			altImage: '/images/LymanBW.jpg',
-			title: 'Lyman Connor',
-			id: '134998536',
-			type: 'vimeo'
+		        image: '/images/PosnerSQ.jpg',
+                        altImage: '/images/PosnerBW.jpg',
+		        title: 'Mike Posner - My Light',
+		        id: '135018169',
+		        type: 'vimeo',
+                        youtube: 'http://www.youtube.com/watch?v=PY424feYbas',
+                        zh: {
+			          title: 'Mike Posner - My Light',
+			          id: 'XMTI5ODM4ODg2NA',
+			          type: 'youku'
+		        }
+	        },
+		{
+			image: '/images/DeltaSQ.jpg',
+			altImage: '/images/DeltaBW.jpg',
+			title: 'DR - Bottom of the River',
+			id: '73015975',
+			type: 'vimeo',
+			youtube: 'http://www.youtube.com/watch?v=bimam2j2gEg',
+                        zh: {
+			          title: 'DR - Bottom of the River',
+			          id: 'XNjA0NTEyNTcy',
+			          type: 'youku'
+		        }
 		}]
-
-	}],
+	 }],
 	infoPages: [{
+		title: 'Award',
+		html: 'Test.'
+	},
+	{
 		title: 'About',
-		html: 'Lawrence Chen is an award winning filmmaker from Beijing, China and New York City. He is currently the lead commercial director at BBDO NY and has garnered multiple awards at the Cannes Lions, Clios, One Show, New Director Showcase, and accolades at the Cannes, Rome, London, and Tribeca film festivals. He was also the 8th most awarded commercial director at the 2015 Cannes Lions. Lawrence also directs music videos, short films, and documentaries, and has done projects in around the world in countries like China, Kenya, Malawi, Guatemala, and Iceland to name a few. He has also recently developed an online tool to help filmmakers find the best digital cinema camera to shoot with: <a href="http://cinesurf.co">CINESURF</a> .'
+		html: 'Lawrence Chen is an award winning filmmaker from Beijing, China and New York City. He is currently the lead commercial director at BBDO NY and also the 8th most awarded director at the 2015 Cannes Lions. He has garnered multiple awards at the Cannes Lions, Clios, One Show, New Director Showcase, and mentions at the Cannes, Rome, London, Tribeca, New York and Sundance film festivals. Lawrence also directs music videos, short films, and documentaries, has done projects around the world and has traveled to over 50 countries and counting. He has recently developed an online tool to help filmmakers find the best digital cinema camera to shoot with: <a href="http://cinesurf.co">CINESURF</a>.'
 	},
 	{
 		title: 'Contact',
