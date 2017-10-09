@@ -79,7 +79,7 @@
             <ul class="title-text nav-bar" data-bind="foreach: infoPages" style="text-align: right;">
                 <li data-bind="text: title, click: $root.setSelectedInfoPage, css: { selected: $root.selectedInfoPage() === $data }" />
             </ul>
-            <div class="info-pane" data-bind="template: { data: selectedInfoPage, if: selectedInfoPage }" style="margin-top: 20px; min-height: 100px; line-height: 2;">
+            <div class="info-pane" data-bind="template: { data: selectedInfoPage, if: selectedInfoPage }" style="margin-top: 20px; min-height: 100px; line-height: 1.5;">
                 <div data-bind="html: html"></div>
             </div>
         </div>
