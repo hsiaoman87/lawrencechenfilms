@@ -65,12 +65,12 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China and New York City. He is currently the lead commercial director at BBDO NY and was the 8th most awarded director at the 2015 Cannes Lions. He has garnered multiple awards at the Cannes Lions, Clios, One Show, New Director Showcase, and mentions at the Cannes, Rome, London, Tribeca, New York and Sundance film festivals. Lawrence also directs music videos, films, and docs, has done projects around the world. He has recently developed an online tool to help filmmakers find the best digital cinema camera to shoot with: <a href="http://cinesurf.co">CINESURF</a>.',
+                'Law Chen is an award winning director from Beijing, China currently based in New York City. He is the lead commercial director at BBDO Studios and creates films and commercials for a variety of brands. Law also directs music videos, short films, and docs, and is developing a series with Justin Lin and his company YOMYOMF as well as directed an upcoming Netflix doc episode releasing at the end of the year. He has recently created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
         },
         {
             title: 'Awards',
             html:
-                '<img src="/images/Cannes.jpg"> <img src="/images/Webby.jpg"> <img src="/images/SOTW.jpg"> <img src="/images/Vimeo.jpg">',
+                '          <img src="/images/Cannes.png">           <img src="/images/Webby.png">           <img src="/images/SOTW.png">           <img src="/images/Vimeo.png"> <br> Law has garnered multiple awards at the Cannes Lions, Clios, Webbys, One Show, New Director Showcase, and his work has shown at the Cannes, Rome, London, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
         },
         {
             title: 'Contact',
