@@ -45,31 +45,11 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/DeimosSQ.jpg',
-                    altImage: '/images/DeimosBW.jpg',
-                    title: 'WE HUMANS',
-                    id: '151486398',
-                    type: 'vimeo',
-                },
-                {
                     image: '/images/spinSQ.jpg',
                     altImage: '/images/spinBW.jpg',
-                    title: 'spin',
-                    id: '158348485',
+                    title: 'After Hours',
+                    id: '158818287',
                     type: 'vimeo',
-                },
-                {
-                    image: '/images/ScaredSQ.jpg',
-                    altImage: '/images/ScaredBW.jpg',
-                    title: 'Delta Rae - Scared',
-                    id: '119471879',
-                    type: 'vimeo',
-                    youtube: 'http://www.youtube.com/watch?v=dykkZteE2Hw',
-                    zh: {
-                        title: 'Delta Rae - Scared',
-                        id: 'XMTI5ODM4NzYwOA',
-                        type: 'youku',
-                    },
                 },
                 {
                     image: '/images/AcademicSQ.jpg',
@@ -78,19 +58,6 @@ var model = {
                     id: 'lO9d-AJai8Q',
                     type: 'youtube',
                 },
-                {
-                    image: '/images/DeltaSQ.jpg',
-                    altImage: '/images/DeltaBW.jpg',
-                    title: 'DR - Bottom of the River',
-                    id: '73015975',
-                    type: 'vimeo',
-                    youtube: 'http://www.youtube.com/watch?v=bimam2j2gEg',
-                    zh: {
-                        title: 'DR - Bottom of the River',
-                        id: 'XNjA0NTEyNTcy',
-                        type: 'youku',
-                    },
-                },
             ],
         },
     ],
@@ -98,11 +65,16 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning filmmaker from Beijing, China and New York City. He is currently the lead commercial director at BBDO NY and also the 8th most awarded director at the 2015 Cannes Lions. He has garnered multiple awards at the Cannes Lions, Clios, One Show, New Director Showcase, and mentions at the Cannes, Rome, London, Tribeca, New York and Sundance film festivals. Lawrence also directs music videos, short films, and documentaries, has done projects around the world and has traveled to over 50 countries and counting. He has recently developed an online tool to help filmmakers find the best digital cinema camera to shoot with: <a href="http://cinesurf.co">CINESURF</a>.',
+                'Law Chen is an award winning director from Beijing, China and New York City. He is currently the lead commercial director at BBDO NY and was the 8th most awarded director at the 2015 Cannes Lions. He has garnered multiple awards at the Cannes Lions, Clios, One Show, New Director Showcase, and mentions at the Cannes, Rome, London, Tribeca, New York and Sundance film festivals. Lawrence also directs music videos, films, and docs, has done projects around the world. He has recently developed an online tool to help filmmakers find the best digital cinema camera to shoot with: <a href="http://cinesurf.co">CINESURF</a>.',
+        },
+        {
+            title: 'Awards',
+            html:
+                '<img src="/images/AcademicSQ.jpg">',
         },
         {
             title: 'Contact',
-            html: 'thelawchen@gmail.com',
+            html: 'lawrence.chen@bbdo.com // thelawchen@gmail.com',
         },
     ],
 };
