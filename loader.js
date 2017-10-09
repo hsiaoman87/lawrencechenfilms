@@ -70,11 +70,11 @@ var model = {
         {
             title: 'Awards',
             html:
-                '<img src="/images/AcademicSQ.jpg">',
+                '<img src="/images/Cannes.jpg"> <img src="/images/Webby.jpg"> <img src="/images/SOTW.jpg"> <img src="/images/Vimeo.jpg">',
         },
         {
             title: 'Contact',
-            html: 'lawrence.chen@bbdo.com // thelawchen@gmail.com',
+            html: 'Work: lawrence.chen@bbdostudios.com <br> Personal: thelawchen@gmail.com',
         },
     ],
 };
