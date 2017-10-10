@@ -33,7 +33,7 @@ var model = {
                 {
                     image: '/images/NBCSQ.jpg',
                     altImage: '/images/NBCBW.jpg',
-                    title: 'The NBC - Rehearsal',
+                    title: 'Rehearsal',
                     id: '225877245',
                     type: 'vimeo',
                 },
@@ -70,11 +70,11 @@ var model = {
         {
             title: 'Awards',
             html:
-                '<img src="/images/Cannes.png" style="margin-right: 20px;"> <img src="/images/Webby.png" style="margin-right: 20px;"> <img src="/images/SOTW.png" style="margin-right: 20px;"> <img src="/images/Vimeo.png" style="margin-right: 20px;"> <br> Law has garnered multiple awards at the Cannes Lions, Clios, Webbys, One Show, and New Director Showcase, and his work has shown at the Cannes, Rome, London, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
+                'Law has garnered multiple awards at the Cannes Lions, Clios, Webbys, One Show, and New Director Showcase, and his work has screened at the Cannes, Rome, London, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week. <br> <img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75 style="margin-right: 75px;">',
         },
         {
             title: 'Contact',
-            html: 'Work: lawrence.chen@bbdostudios.com <br> Personal: thelawchen@gmail.com',
+            html: 'WORK: lawrence.chen@bbdostudios.com <br> PERSONAL: thelawchen@gmail.com',
         },
     ],
 };
