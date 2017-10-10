@@ -70,7 +70,7 @@ var model = {
         {
             title: 'Awards',
             html:
-                'Law has garnered multiple awards at the Cannes Lions, Clios, Webbys, One Show, and New Director Showcase, and his work has screened at the Cannes, Rome, London, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week. <br> <img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75 style="margin-right: 75px;">',
+                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75 style="margin-right: 75px;"> </p> <br> Law has garnered multiple awards at the Cannes Lions, Clios, Webbys, One Show, and New Director Showcase, and his work has screened at the Cannes, Rome, London, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
         },
         {
             title: 'Contact',
