@@ -60,7 +60,7 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China currently based in New York City. He is the lead commercial director at BBDO Studios and creates films and commercials for a variety of brands. Law also directs music videos, short films, and docs, and is developing a series with Justin Lin and his company YOMYOMF as well as directed an upcoming Netflix doc episode releasing at the end of the year. He has recently created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
+                'Law Chen is an award winning director from Beijing, China currently based in New York City. He was the lead commercial director at BBDO Studios and created films and commercials for a variety of brands. Law also directs music videos and short films that have amassed over 10 million views online. Most recently he completed an episode for the docu series Rotten on Netflix. Law is currently developing a series with Justin Lin and his company YOMYOMF as well as directing a big budget scifi action film in China. Law also created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
         },
         {
             title: 'Awards',
@@ -69,7 +69,7 @@ var model = {
         },
         {
             title: 'Contact',
-            html: 'WORK: lawrence.chen@bbdostudios.com <br> PERSONAL: thelawchen@gmail.com',
+            html: 'thelawchen@gmail.com',
         },
     ],
 };
