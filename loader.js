@@ -11,30 +11,10 @@ var model = {
             title: 'ALL WORK',
             content: [
                 {
-                    image: '/images/GEChinaSQ.jpg',
-                    altImage: '/images/GEChinaBW.jpg',
-                    title: 'GE China - First Flight',
-                    id: '134998540',
-                    type: 'vimeo',
-                    youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
-                    zh: {
-                        title: 'GE China - First Flight',
-                        id: 'XMTI5ODM2NTU0MA',
-                        type: 'youku',
-                    },
-                },
-                {
-                    image: '/images/LifeAfterSQ.jpg',
-                    altImage: '/images/LifeAfterBW.jpg',
-                    title: 'GE - LifeAfter',
-                    id: '192968803',
-                    type: 'vimeo',
-                },
-                {
-                    image: '/images/NBCSQ.jpg',
-                    altImage: '/images/NBCBW.jpg',
-                    title: 'Rehearsal',
-                    id: '225877245',
+                    image: '/images/StirredSQ.jpg',
+                    altImage: '/images/StirredBW.jpg',
+                    title: 'Bombay Sapphire - Stir',
+                    id: '238353488',
                     type: 'vimeo',
                 },
                 {
@@ -50,6 +30,21 @@ var model = {
                     title: 'After Hours',
                     id: '158818287',
                     type: 'vimeo',
+                },
+                {
+                    image: '/images/NBCSQ.jpg',
+                    altImage: '/images/NBCBW.jpg',
+                    title: 'Rehearsal',
+                    id: '225877245',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/GEChinaSQ.jpg',
+                    altImage: '/images/GEChinaBW.jpg',
+                    title: 'GE China - First Flight',
+                    id: '134998540',
+                    type: 'vimeo',
+                    youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
                 },
                 {
                     image: '/images/AcademicSQ.jpg',
