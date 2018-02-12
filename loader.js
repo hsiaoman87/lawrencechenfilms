@@ -11,8 +11,8 @@ var model = {
             title: 'ALL WORK',
             content: [
                 {
-                    image: '/images/StirredSQ.png',
-                    altImage: '/images/StirredBW.png',
+                    image: '/images/StirredSQ.jpg',
+                    altImage: '/images/StirredBW.jpg',
                     title: 'Bombay Sapphire - Stir',
                     id: '238353488',
                     type: 'vimeo',
