@@ -11,10 +11,10 @@ var model = {
             title: 'ALL WORK',
             content: [
                 {
-                    image: '/images/StirredSQ.jpg',
-                    altImage: '/images/StirredBW.jpg',
-                    title: 'Bombay Sapphire - Stir',
-                    id: '238353488',
+                    image: '/images/LionsSQ.jpg',
+                    altImage: '/images/LionsBW.jpg',
+                    title: 'The Lions of Chinatown',
+                    id: '272388845',
                     type: 'vimeo',
                 },
                 {
@@ -29,6 +29,13 @@ var model = {
                     altImage: '/images/spinBW.jpg',
                     title: 'After Hours',
                     id: '255584967',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/StirredSQ.jpg',
+                    altImage: '/images/StirredBW.jpg',
+                    title: 'Bombay Sapphire - Stir',
+                    id: '238353488',
                     type: 'vimeo',
                 },
                 {
@@ -47,18 +54,18 @@ var model = {
                     youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
                 },
                 {
-                    image: '/images/LionsSQ.jpg',
-                    altImage: '/images/LionsBW.jpg',
-                    title: 'The Lions of Chinatown',
-                    id: '272388845',
-                    type: 'vimeo',
-                },
-                 {
                     image: '/images/AcademicSQ.jpg',
                     altImage: '/images/AcademicBW.jpg',
                     title: 'The Academic - Bear Claws',
                     id: 'lO9d-AJai8Q',
                     type: 'youtube',
+                },
+                {
+                    image: '/images/LifeAfterSQ.jpg',
+                    altImage: '/images/LifeAfterBW.jpg',
+                    title: 'GE - LifeAfter',
+                    id: '192968803',
+                    type: 'vimeo',
                 },
             ],
         },
