@@ -1,9 +1,9 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/spin.jpg',
-        title: 'After Hours',
-        id: '255584967',
+        image: '/images/Lions.jpg',
+        title: 'The Lions of Chinatown',
+        id: '272388845',
         type: 'vimeo',
     },
     contentPages: [
@@ -47,6 +47,13 @@ var model = {
                     youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
                 },
                 {
+                    image: '/images/LionsSQ.jpg',
+                    altImage: '/images/LionsBW.jpg',
+                    title: 'The Lions of Chinatown',
+                    id: '272388845',
+                    type: 'vimeo',
+                },
+                 {
                     image: '/images/AcademicSQ.jpg',
                     altImage: '/images/AcademicBW.jpg',
                     title: 'The Academic - Bear Claws',
@@ -69,7 +76,7 @@ var model = {
         },
         {
             title: 'Contact',
-            html: 'thelawchen@gmail.com',
+            html: 'Personal: thelawchen@gmail.com',
         },
     ],
 };
