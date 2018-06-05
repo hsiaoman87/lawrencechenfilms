@@ -83,7 +83,7 @@ var model = {
         },
         {
             title: 'Contact',
-            html: 'Personal: thelawchen@gmail.com',
+            html: 'Commercial & Music Video: Stink Films desmond@stink.asia <br> Film & TV: UTA MichaelM@unitedtalent.com <br> Personal: thelawchen@gmail.com',
         },
     ],
 };
