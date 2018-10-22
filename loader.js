@@ -32,13 +32,6 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/StirredSQ.jpg',
-                    altImage: '/images/StirredBW.jpg',
-                    title: 'Bombay Sapphire - Stir',
-                    id: '238353488',
-                    type: 'vimeo',
-                },
-                {
                     image: '/images/NBCSQ.jpg',
                     altImage: '/images/NBCBW.jpg',
                     title: 'Rehearsal',
@@ -54,13 +47,6 @@ var model = {
                     youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
                 },
                 {
-                    image: '/images/AcademicSQ.jpg',
-                    altImage: '/images/AcademicBW.jpg',
-                    title: 'The Academic - Bear Claws',
-                    id: 'lO9d-AJai8Q',
-                    type: 'youtube',
-                },
-                {
                     image: '/images/ChandoSQ.jpg',
                     altImage: '/images/ChandoBW.jpg',
                     title: 'Chando - Graduation',
@@ -74,12 +60,12 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China currently based in New York City. He was the lead commercial director at BBDO and is now represented by Stink Films for commercials. Law also directs music videos, docs, and films that have amassed over 50 million views online. Most recently he completed an episode for the docu series Rotten on Netflix. Law is currently developing a series with Justin Lin and his company YOMYOMF as well as directing a scifi action film in China. Law also created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
+                'Law Chen is an award winning director from Beijing, China currently based in New York City. He is represented by Stink Films for commercials and was the lead director at BBDO Studios NYC. Law also directs music videos, docs, and films that have amassed over 50 million views online. Most recently he completed an episode for the docu series Rotten on Netflix. Law is currently developing a series with Justin Lin and his company YOMYOMF as well as directing a scifi action film in China. Law also created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
         },
         {
             title: 'Awards',
             html:
-                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered multiple awards at the Cannes Lions (including 19 Lions), Clios, Webbys, One Show, and New Director Showcase, and his work has screened at the Cannes, Rome, London, LA Shorts, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
+                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered various awards over the years including 19 Lions at Cannes and accolades at the Clios, Webbys, One Show, and New Director Showcase. His work has screened at the Cannes, Rome, London, LA Shorts, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
         },
         {
             title: 'Contact',
