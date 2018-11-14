@@ -39,12 +39,12 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/DouyinSQ.jpg',
-                    altImage: '/images/DouyinBW.jpg',
-                    title: 'Douyin - Moments',
-                    id: '289937318',
+                    image: '/images/DamsunSQ.jpg',
+                    altImage: '/images/DamsunBW.jpg',
+                    title: 'Bacardi x Major Lazer',
+                    id: '300790135',
                     type: 'vimeo',
-                    youtube: 'http://www.youtube.com/watch?v=fW6Wa6ccXq8',
+                    youtube: 'http://www.youtube.com/watch?v=GXSum_H-4r0',
                 },
                 {
                     image: '/images/ChandoSQ.jpg',
