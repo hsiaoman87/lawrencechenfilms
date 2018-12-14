@@ -32,10 +32,10 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/NBCSQ.jpg',
-                    altImage: '/images/NBCBW.jpg',
-                    title: 'Rehearsal',
-                    id: '225877245',
+                    image: '/images/DouyinSQ.jpg',
+                    altImage: '/images/DouyinBW.jpg',
+                    title: 'TikTok - Moments',
+                    id: '289937318',
                     type: 'vimeo',
                 },
                 {
