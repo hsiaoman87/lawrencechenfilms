@@ -42,7 +42,7 @@ var model = {
                     image: '/images/DamsunSQ.jpg',
                     altImage: '/images/DamsunBW.jpg',
                     title: 'Bacardi x Major Lazer',
-                    id: '300790135',
+                    id: '306757638',
                     type: 'vimeo',
                     youtube: 'http://www.youtube.com/watch?v=GXSum_H-4r0',
                 },
