@@ -32,10 +32,10 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/DouyinSQ.jpg',
-                    altImage: '/images/DouyinBW.jpg',
-                    title: 'TikTok - Moments',
-                    id: '289937318',
+                    image: '/images/TMallSQ.jpg',
+                    altImage: '/images/TMallBW.jpg',
+                    title: 'TMall - Made in China',
+                    id: '342924483',
                     type: 'vimeo',
                 },
                 {
