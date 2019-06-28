@@ -1,9 +1,9 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/Lions.jpg',
-        title: 'The Lions of Chinatown',
-        id: '272388845',
+        image: '/images/TMall Cover.jpg',
+        title: 'TMall - Made in China',
+        id: '342924483',
         type: 'vimeo',
     },
     contentPages: [
