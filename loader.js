@@ -1,7 +1,7 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/TMALL.jpg',
+        image: '/images/TMALLS.jpg',
         title: 'TMall - Made in China',
         id: '342924483',
         type: 'vimeo',
