@@ -1,9 +1,9 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/TMALLS.jpg',
-        title: 'TMall - Made in China',
-        id: '344714802',
+        image: '/images/UACover.jpg',
+        title: 'Under Armour - One More',
+        id: '380594202',
         type: 'vimeo',
     },
     contentPages: [
