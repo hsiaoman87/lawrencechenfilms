@@ -1,7 +1,7 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/UACover.jpg',
+        image: '/images/UACover.png',
         title: 'Under Armour - One More',
         id: '380594202',
         type: 'vimeo',
