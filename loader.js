@@ -61,8 +61,8 @@ var model = {
                     youtube: 'http://www.youtube.com/watch?v=GXSum_H-4r0',
                 },
                 {
-                    image: '/images/UA1SQ.jpg',
-                    altImage: '/images/UA1BW.jpg',
+                    image: '/images/UASQ.png',
+                    altImage: '/images/UABW.png',
                     title: 'Under Armour - One More',
                     id: '380594202',
                     type: 'vimeo',
