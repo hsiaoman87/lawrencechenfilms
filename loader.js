@@ -1,9 +1,9 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/UACover.png',
-        title: 'Under Armour - One More',
-        id: '380594202',
+        image: '/images/Delivered.jpg',
+        title: 'Delivered',
+        id: '410720817',
         type: 'vimeo',
     },
     contentPages: [
@@ -32,6 +32,20 @@ var model = {
                     type: 'vimeo',
                 },
                 {
+                    image: '/images/886SQ.jpg',
+                    altImage: '/images/886BW.jpg',
+                    title: 'A Head and A Tail',
+                    id: '412396748',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/DeliveredSQ.jpg',
+                    altImage: '/images/DeliveredBW.jpg',
+                    title: 'Delivered',
+                    id: '410720817',
+                    type: 'vimeo',
+                },
+                {
                     image: '/images/TMallSQ.jpg',
                     altImage: '/images/TMallBW.jpg',
                     title: 'TMall - Made in China',
@@ -47,6 +61,13 @@ var model = {
                     youtube: 'http://www.youtube.com/watch?v=GXSum_H-4r0',
                 },
                 {
+                    image: '/images/UA1SQ.jpg',
+                    altImage: '/images/UA1BW.jpg',
+                    title: 'Under Armour - One More',
+                    id: '380594202',
+                    type: 'vimeo',
+                },
+                {
                     image: '/images/ChandoSQ.jpg',
                     altImage: '/images/ChandoBW.jpg',
                     title: 'Chando - Graduation',
@@ -60,7 +81,7 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China currently based in New York City. He is represented by Stink Films for commercials and was the lead director at BBDO Studios NYC. Law also directs music videos, docs, and films that have amassed over 50 million views online. Most recently he completed an episode for the docu series Rotten on Netflix. Law is currently developing a series with Justin Lin and his company YOMYOMF as well as directing a scifi action film in China. Law also created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>.',
+                'Law Chen is an award winning director from Beijing, China currently based in New York City. He directs music videos, doc, and narrative films that have won awards at various festivals and amassed over millions of views online. Law was directing a $40mm scifi action film in China and is now developing several feature projects that focus on immigrants, Asian Americans, and the pursuit of the American Dream. Outside of narrative projects, he has direcfted an episode for the docu series Rotten on Netflix as well as created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>. He is represented by Stink Films for commercials and UTA for film/TV. ',
         },
         {
             title: 'Awards',
