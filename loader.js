@@ -39,13 +39,6 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/DeliveredSQ.jpg',
-                    altImage: '/images/DeliveredBW.jpg',
-                    title: 'Delivered',
-                    id: '410720817',
-                    type: 'vimeo',
-                },
-                {
                     image: '/images/TMallSQ.jpg',
                     altImage: '/images/TMallBW.jpg',
                     title: 'TMall - Made in China',
