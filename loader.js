@@ -74,7 +74,7 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China currently based in New York City. He directs music videos, doc, and narrative films that have won awards at various festivals and amassed over millions of views online. Law was directing a $40mm scifi action film in China and is now developing several feature projects that focus on immigrants, Asian Americans, and the pursuit of the American Dream. Outside of narrative projects, he has direcfted an episode for the docu series Rotten on Netflix as well as created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>. He is represented by Stink Films for commercials and UTA for film/TV. ',
+                'Law Chen is an award winning director from Beijing, China currently based in New York City. He creates music videos, doc, and narrative films that have earned accolades at various festivals and amassed millions of views online. Law was directing a $40mm scifi action film in China and is now developing several feature projects that focus on immigrants, Asian Americans, and the pursuit of the American Dream. Outside of narrative projects, he has directed commercials for big brands, episodes for the docu series Rotten on Netflix, as well as created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>. He is represented by Stink Films for commercials and UTA for film/TV. ',
         },
         {
             title: 'Awards',
