@@ -1,9 +1,9 @@
 var model = {
     title: 'LAW',
     featuredContent: {
-        image: '/images/Delivered.jpg',
-        title: 'Delivered',
-        id: '410720817',
+        image: '/images/Zodiac.jpg',
+        title: 'Mask of the Zodiac',
+        id: '420397570',
         type: 'vimeo',
     },
     contentPages: [
@@ -36,6 +36,20 @@ var model = {
                     altImage: '/images/886BW.jpg',
                     title: 'A Head and A Tail',
                     id: '412396748',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/ZodiacSQ.jpg',
+                    altImage: '/images/ZodiacBW.jpg',
+                    title: 'Mask of the Zodiac',
+                    id: '420397570',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/DeliveredSQ.jpg',
+                    altImage: '/images/DeliveredBW.jpg',
+                    title: 'Delivered',
+                    id: '410720817',
                     type: 'vimeo',
                 },
                 {
