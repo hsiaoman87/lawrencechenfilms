@@ -88,12 +88,12 @@ var model = {
         {
             title: 'About',
             html:
-                'Law Chen is an award winning director from Beijing, China currently based in New York City. He creates music videos, doc, and narrative films that have earned accolades at various festivals and amassed millions of views online. Law was directing a $40mm scifi action film in China and is now developing several feature projects that focus on immigrants, Asian Americans, and the pursuit of the American Dream. Outside of narrative projects, he has directed commercials for big brands, episodes for the docu series Rotten on Netflix, as well as created an online tool to help filmmakers find the best digital cinema cameras: <a href="http://cinesurf.co">CINESURF</a>. He is represented by Stink Films for commercials and UTA for film/TV. ',
+                'LAW is an award winning director currently based in New York City. His experience growing up in the US and abroad has shaped him as a filmmaker, and the blend of cultures continue to be an integral part of his directorial style. He’s been a director on a sci-fi blockbuster in China, Netflix docu-series, as well as numerous commercials and music videos. His narrative films have screen at various film festivals and he is now creating feature projects that focus on immigrants and the pursuit of the American Dream.',
         },
         {
             title: 'Awards',
             html:
-                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered various awards over the years including 19 Lions at Cannes and accolades at the Clios, Webbys, One Show, and New Director Showcase. His work has screened at the Cannes, Rome, London, LA Shorts, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
+                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered various awards over the years including 19 Lions at Cannes and accolades at the Clios, Webbys, One Show, and New Director Showcase. His work has screened at the Cannes, Rome, London, LA, Rhode Island, Austin, Tribeca, New York, and Sundance film festivals. His short films have earned a coveted Vimeo Staff Pick as well as premiered on Short of the Week.',
         },
         {
             title: 'Contact',
