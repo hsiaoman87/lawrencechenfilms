@@ -88,7 +88,7 @@ var model = {
         {
             title: 'About',
             html:
-                'LAW is an award winning director currently based in New York City. His experience growing up in the US and abroad has shaped him as a filmmaker, and the blend of cultures continue to be an integral part of his directorial style. He’s been a director on a sci-fi blockbuster in China, Netflix docu-series, as well as numerous commercials and music videos. His narrative films have screen at various film festivals and he is now creating feature projects that focus on immigrants and the pursuit of the American Dream.',
+                'LAW is an award winning director currently based in New York City. His experience growing up in the US and abroad has shaped him as a filmmaker, and the blend of cultures continue to be an integral part of his directorial style. He’s been a director on a sci-fi blockbuster in China, Netflix docu-series, as well as numerous commercials and music videos. His narrative films have screened at various film festivals and he is now developing feature projects that focus on immigrants and the pursuit of the American Dream.',
         },
         {
             title: 'Awards',
