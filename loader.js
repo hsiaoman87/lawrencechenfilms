@@ -32,10 +32,10 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/886SQ.jpg',
-                    altImage: '/images/886BW.jpg',
-                    title: 'A Head and A Tail',
-                    id: '412396748',
+                    image: '/images/SYMSQ.jpg',
+                    altImage: '/images/SYMBW.jpg',
+                    title: 'SYMBIONT',
+                    id: '581246188',
                     type: 'vimeo',
                 },
                 {
