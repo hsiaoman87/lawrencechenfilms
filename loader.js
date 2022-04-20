@@ -39,10 +39,10 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/ZodiacSQ.jpg',
-                    altImage: '/images/ZodiacBW.jpg',
-                    title: 'Mask of the Zodiac',
-                    id: '420397570',
+                    image: '/images/LeftoversSQ.jpg',
+                    altImage: '/images/LeftoversBW.jpg',
+                    title: 'Leftovers',
+                    id: '635345826',
                     type: 'vimeo',
                 },
                 {
