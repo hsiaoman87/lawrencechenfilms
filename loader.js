@@ -88,16 +88,16 @@ var model = {
         {
             title: 'About',
             html:
-                'LAW is an award winning director currently based in New York City. His experience growing up in the US and abroad has shaped him as a filmmaker, and the blend of cultures continue to be an integral part of his directorial style. He’s been a director on a sci-fi blockbuster in China, Netflix docu-series, as well as numerous commercials and music videos. His narrative films have screened at various film festivals and he is now developing feature projects that focus on immigrants and the pursuit of the American Dream.',
+                'LAW is an award winning director based in Brooklyn. His narrative, documentary, and commercial films have earned 19 Cannes Lions, as well as multiple Webby Awards, Vimeo Staff Picks. His first feature ‘Starring Jerry as Himself’ premiered at Slamdance, winning the Grand Jury, Audience, and Best Actor Awards, and tells a deeply personal story about an immigrant’s pursuit of the American Dream.',
         },
         {
             title: 'Awards',
             html:
-                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered various awards over the years including 19 Lions at Cannes and accolades at the Clios, Webbys, One Show, and New Director Showcase. His work has screened at the Cannes, Rome, London, LA, Rhode Island, Austin, Tribeca, New York, and Sundance film festivals. His short films have earned multiple Vimeo Staff Picks as well as premiered on Short of the Week.',
+                '<p align="center"><img src="/images/Cannes.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Webby.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/SOTW.png" width=75 height=75 style="margin-right: 75px;"> <img src="/images/Vimeo.png" width=75 height=75> </p> Law has garnered various awards over the years including 19 Lions at Cannes and accolades at the Clios, Webbys, One Show, and New Director Showcase. His work has screened at the Rome, London, LA, Rhode Island, Austin, New York, and Slamdance film festivals. His short films have earned multiple Vimeo Staff Picks and his first feature Starring Jerry as Himself won the Grand Jury, Audience, and Best Actor Awards at Slamdance.',
         },
         {
             title: 'Contact',
-            html: 'Commercial: Stink Films (desmond@stink.asia) <br> Personal: Me (thelawchen@gmail.com)',
+            html: 'Commercial: Stink Films (sally.shi@stink.asia) <br> Personal: Me (thelawchen@gmail.com)',
         },
     ],
 };
