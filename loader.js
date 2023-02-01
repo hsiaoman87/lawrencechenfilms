@@ -39,11 +39,11 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/LeftoversSQ.jpg',
-                    altImage: '/images/LeftoversBW.jpg',
-                    title: 'Leftovers',
-                    id: '635345826',
-                    type: 'vimeo',
+                    image: '/images/JerrySQ.jpg',
+                    altImage: '/images/JerryBW.jpg',
+                    title: 'Starring Jerry as Himself',
+                    id: '1WwLaQTDtNU',
+                    type: 'youtube',
                 },
                 {
                     image: '/images/DeliveredSQ.jpg',
