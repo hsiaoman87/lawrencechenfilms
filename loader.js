@@ -25,6 +25,13 @@ var model = {
                     type: 'vimeo',
                 },
                 {
+                    image: '/images/JerrySQ.jpg',
+                    altImage: '/images/JerryBW.jpg',
+                    title: 'Starring Jerry as Himself',
+                    id: '1WwLaQTDtNU',
+                    type: 'youtube',
+                },
+                {
                     image: '/images/spinSQ.jpg',
                     altImage: '/images/spinBW.jpg',
                     title: 'After Hours',
@@ -37,13 +44,6 @@ var model = {
                     title: 'SYMBIONT',
                     id: '581246188',
                     type: 'vimeo',
-                },
-                {
-                    image: '/images/JerrySQ.jpg',
-                    altImage: '/images/JerryBW.jpg',
-                    title: 'Starring Jerry as Himself',
-                    id: '1WwLaQTDtNU',
-                    type: 'youtube',
                 },
                 {
                     image: '/images/DeliveredSQ.jpg',
