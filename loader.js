@@ -84,6 +84,49 @@ var model = {
             ],
         },
     ],
+    [
+        {
+            title: 'COMMERCIAL',
+            content: [
+                {
+                    image: '/images/DeliveredSQ.jpg',
+                    altImage: '/images/DeliveredBW.jpg',
+                    title: 'Delivered',
+                    id: '410720817',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/TMallSQ.jpg',
+                    altImage: '/images/TMallBW.jpg',
+                    title: 'TMall - Made in China',
+                    id: '344714802',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/DamsunSQ.jpg',
+                    altImage: '/images/DamsunBW.jpg',
+                    title: 'Bacardi x Major Lazer',
+                    id: '306757638',
+                    type: 'vimeo',
+                    youtube: 'http://www.youtube.com/watch?v=GXSum_H-4r0',
+                },
+                {
+                    image: '/images/UASQ.png',
+                    altImage: '/images/UABW.png',
+                    title: 'Under Armour - One More',
+                    id: '380594202',
+                    type: 'vimeo',
+                },
+                {
+                    image: '/images/ChandoSQ.jpg',
+                    altImage: '/images/ChandoBW.jpg',
+                    title: 'Chando - Graduation',
+                    id: '289938607',
+                    type: 'vimeo',
+                },
+            ],
+        },
+    ],
     infoPages: [
         {
             title: 'About',
