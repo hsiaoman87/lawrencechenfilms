@@ -3,7 +3,7 @@ $(function () {
         $('head').prepend($('<link>').attr({
             rel: 'stylesheet',
             type: 'text/css',
-            href: 'http://fonts.googleapis.com/css?family=' + model.fontName + ':200,400,800'
+            href: 'https://fonts.googleapis.com/css?family=' + model.fontName + ':200,400,800'
         }));
 
         $('body').css('font-family', model.fontName);
@@ -13,7 +13,7 @@ $(function () {
         $('head').prepend($('<link>').attr({
             rel: 'stylesheet',
             type: 'text/css',
-            href: 'http://fonts.googleapis.com/css?family=' + model.titleFontName + ':800'
+            href: 'https://fonts.googleapis.com/css?family=' + model.titleFontName + ':800'
         }));
         $('.title-text.main').css('font-family', model.titleFontName);
     }
@@ -38,7 +38,7 @@ $(function () {
 				case 'youtube':
                     return "//www.youtube.com/embed/" + self.id + "?autoplay=1&autohide=1&iv_load_policy=3&rel=0&enablejsapi=1&theme=" + theme + "&origin=" + window.location.origin;
 				case 'vimeo':
-                    return "http://player.vimeo.com/video/" + self.id + "?autoplay=1&api=1&player_id=player";
+                    return "https://player.vimeo.com/video/" + self.id + "?autoplay=1&api=1&player_id=player";
 				case 'youku':
                     return "http://player.youku.com/embed/" + self.id + "?autoplay=1";
                                 case 'interlude':
