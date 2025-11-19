@@ -2,8 +2,8 @@ var model = {
     title: 'LAW',
     featuredContent: {
         image: '/images/Zodiac.jpg',
-        title: 'Mask of the Zodiac',
-        id: '420397570',
+        title: 'Law Abiding Citizen',
+        id: '1138406326',
         type: 'vimeo',
     },
     contentPages: [
@@ -39,10 +39,10 @@ var model = {
                     type: 'vimeo',
                 },
                 {
-                    image: '/images/SYMSQ.jpg',
-                    altImage: '/images/SYMBW.jpg',
-                    title: 'SYMBIONT',
-                    id: '581246188',
+                    image: '/images/ZodiacSQ.jpg',
+                    altImage: '/images/ZodiacBW.jpg',
+                    title: 'The Zodiac',
+                    id: '420397570',
                     type: 'vimeo',
                 },
                 {
